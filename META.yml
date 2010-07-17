@@ -4,6 +4,7 @@ author:
   - 'Torsten Raudssus <torsten@raudssus.de>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  FindBin: 0
   Test::More: 0.42
 configure_requires:
   ExtUtils::MakeMaker: 6.42
@@ -15,12 +16,14 @@ meta-spec:
   version: 1.4
 name: Alien-APE-Server
 no_index:
+  ape-server: []
   directory:
     - inc
     - share
+    - t
 requires:
   File::ShareDir: 0
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.000000049001
+version: 1.000000049002

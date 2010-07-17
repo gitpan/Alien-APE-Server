@@ -36,6 +36,7 @@ ape-server/deps/js/src/config/fastcwd.pl
 ape-server/deps/js/src/config/gcc_hidden.h
 ape-server/deps/js/src/config/insure.mk
 ape-server/deps/js/src/config/make-system-wrappers.pl
+ape-server/deps/js/src/config/Makefile
 ape-server/deps/js/src/config/Makefile.in
 ape-server/deps/js/src/config/milestone.pl
 ape-server/deps/js/src/config/milestone.txt
@@ -46,6 +47,7 @@ ape-server/deps/js/src/config/mkdepend/ifparser.h
 ape-server/deps/js/src/config/mkdepend/imakemdep.h
 ape-server/deps/js/src/config/mkdepend/include.c
 ape-server/deps/js/src/config/mkdepend/main.c
+ape-server/deps/js/src/config/mkdepend/Makefile
 ape-server/deps/js/src/config/mkdepend/Makefile.in
 ape-server/deps/js/src/config/mkdepend/mkdepend.man
 ape-server/deps/js/src/config/mkdepend/parse.c
@@ -75,6 +77,7 @@ ape-server/deps/js/src/dtoa.c
 ape-server/deps/js/src/editline/editline.3
 ape-server/deps/js/src/editline/editline.c
 ape-server/deps/js/src/editline/editline.h
+ape-server/deps/js/src/editline/Makefile
 ape-server/deps/js/src/editline/Makefile.in
 ape-server/deps/js/src/editline/Makefile.ref
 ape-server/deps/js/src/editline/README
@@ -311,6 +314,7 @@ ape-server/deps/udns-0.0.9/ex-rdns
 ape-server/deps/udns-0.0.9/ex-rdns.c
 ape-server/deps/udns-0.0.9/getopt.c
 ape-server/deps/udns-0.0.9/inet_XtoX.c
+ape-server/deps/udns-0.0.9/Makefile
 ape-server/deps/udns-0.0.9/Makefile.in
 ape-server/deps/udns-0.0.9/NEWS
 ape-server/deps/udns-0.0.9/NOTES
@@ -336,10 +340,12 @@ ape-server/deps/udns-0.0.9/udns_rr_srv.c
 ape-server/deps/udns-0.0.9/udns_rr_txt.c
 ape-server/deps/udns-0.0.9/udns_XtoX.c
 ape-server/doc/RFC
+ape-server/Makefile
 ape-server/modules/conf/inlinepush.conf
 ape-server/modules/conf/javascript.conf
 ape-server/modules/conf/proxy.conf
 ape-server/modules/deps/mysac/COPYING
+ape-server/modules/deps/mysac/Makefile
 ape-server/modules/deps/mysac/mysac.c
 ape-server/modules/deps/mysac/mysac.doxygen
 ape-server/modules/deps/mysac/mysac.h
@@ -359,6 +365,7 @@ ape-server/modules/deps/mysac/VERSION
 ape-server/modules/global_plugins.h
 ape-server/modules/lib/README
 ape-server/modules/libape-spidermonkey.c
+ape-server/modules/Makefile
 ape-server/modules/plugins.h
 ape-server/README
 ape-server/scripts/commands/inlinepush.js
@@ -445,4 +452,7 @@ inc/Module/Install/WriteAll.pm
 lib/Alien/APE/Server.pm
 Makefile.PL
 MANIFEST			This list of files
+MANIFEST.SKIP
 META.yml
+t/00-load.t
+t/01-daemon.t
