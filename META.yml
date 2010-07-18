@@ -16,8 +16,8 @@ meta-spec:
   version: 1.4
 name: Alien-APE-Server
 no_index:
-  ape-server: []
   directory:
+    - ape-server
     - inc
     - share
     - t
@@ -26,4 +26,4 @@ requires:
   perl: 5.8.0
 resources:
   license: http://opensource.org/licenses/gpl-2.0.php
-version: 1.000000049003
+version: 1.000000049004
